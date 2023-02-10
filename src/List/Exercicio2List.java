@@ -1,3 +1,4 @@
+package List;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -19,24 +20,24 @@ classificada como "Suspeita", entre 3 e 4 como "Cúmplice" e 5 como
 public class Exercicio2List {
     public static void main(String[] args) {
         List<String> respostas = new ArrayList<>();
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Perguntas: ");
-        System.out.print("\nTelefonou para a vítima? ");
-        String resposta = scanner.next();
-        respostas.add(resposta.toLowerCase());
-        System.out.print("Esteve no local do crime? ");
-        resposta = scanner.next();
-        respostas.add(resposta.toLowerCase());
-        System.out.print("Mora perto da vítima? ");
-        resposta = scanner.next();
-        respostas.add(resposta.toLowerCase());
-        System.out.print("Devia para a vítima? ");
-        resposta = scanner.next();
-        respostas.add(resposta.toLowerCase());
-        System.out.print("Já trabalhou com a vítima? ");
-        resposta = scanner.next();
-        respostas.add(resposta.toLowerCase());
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.println("Perguntas: ");
+            System.out.print("\nTelefonou para a vítima? ");
+            String resposta = scanner.next();
+            respostas.add(resposta.toLowerCase());
+            System.out.print("Esteve no local do crime? ");
+            resposta = scanner.next();
+            respostas.add(resposta.toLowerCase());
+            System.out.print("Mora perto da vítima? ");
+            resposta = scanner.next();
+            respostas.add(resposta.toLowerCase());
+            System.out.print("Devia para a vítima? ");
+            resposta = scanner.next();
+            respostas.add(resposta.toLowerCase());
+            System.out.print("Já trabalhou com a vítima? ");
+            resposta = scanner.next();
+            respostas.add(resposta.toLowerCase());
+        }
 
         System.out.println(respostas);
         
