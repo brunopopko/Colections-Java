@@ -1,0 +1,56 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploList",
+            "request": "launch",
+            "mainClass": "List.ExemploList",
+            "projectName": "Colections-Java_67d28077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio1List",
+            "request": "launch",
+            "mainClass": "List.Exercicio1List",
+            "projectName": "Colections-Java_67d28077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio2List",
+            "request": "launch",
+            "mainClass": "List.Exercicio2List",
+            "projectName": "Colections-Java_67d28077"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExemploSet",
+            "request": "launch",
+            "mainClass": "Set.ExemploSet",
+            "projectName": "Colections-Java_67d28077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio1Set",
+            "request": "launch",
+            "mainClass": "Set.Exercicio1Set",
+            "projectName": "Colections-Java_67d28077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exercicio2Set",
+            "request": "launch",
+            "mainClass": "Set.Exercicio2Set",
+            "projectName": "Colections-Java_67d28077"
+        }
+    ]
+}
